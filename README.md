@@ -1,3 +1,7 @@
 # SMUGI PAGE, DLA NAS JZQ
 
+
 #ZMIANA KUBY
+
+Zmiana Jacka 
+
