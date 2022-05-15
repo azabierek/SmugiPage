@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>SmuGi</title>
+    <meta
+      name="description"
+      content="Innovations in the field of warehouse space and IT services"
+    />
+    <meta
+      name="keywords"
+      content="notification, electronic notification, IT, IT warehouse, warehouse, IT services"
+    />
+    <meta name="author" content="SmuGi Software" />
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="icons/fontello-6c4c4ccb/css/fontello.css" />
+    <link rel="icon" href="img/tree.png"/>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp,subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+    <script src="jquery.scrollTo.min.js"></script>
+    
+    
+    <script>
+    
+      jQuery(function($)
+      {
+        $.scrollTo(0);
+        
+        $('#link1').click(function() { $.scrollTo($('#onas'), 1000); });
+        $('#link2').click(function() { $.scrollTo($('#oprogramowanie1'), 1000); });
+        $('#link3').click(function() { $.scrollTo($('#oprogramowanie2'), 1000); });
+        $('#link4').click(function() { $.scrollTo($('#kontakt'), 1000); });
+        
+        $(".scrollup").click(function() { $.scrollTo($("body"), 1000); });
+      }
+      );
+      
+      
+      $(window).scroll(function()
+      {
+        if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+        else $('.scrollup').fadeOut()
+      }
+      );
+    </script>
+  </head>
+
+  <body>
+    <a href="#" class="scrollup"></a>
+    <header>
+      <nav class="navbar navbar-dark bg-jumpers navbar-expand-md">
+        <a class="navbar brand text" href="#">
+          <img
+            src="img/Logo/logo1.png"
+            width="150"
+            height="50"
+            class="d-inline-block align-bottom mr-5"
+            alt=""
+          />
+        </a
+        >
+        <botton
+          class="navbar-toggler mr-5"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mainmenu"
+          aria-controls="mainmenu"
+          aria-expanded="false"
+          aria-label="Przełacznik nawigacji"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </botton>
+
+        <div class="collapse navbar-collapse " id="mainmenu">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item  mr-lg-5">
+              <a class="nav-link" id="link1" href="#">O nas</a>
+            <li class="nav-item mr-lg-5">
+              <a class="nav-link" id="link2" href="#">Oprogramowanie 1</a>
+            </li>
+            <li class="nav-item mr-lg-5">
+              <a class="nav-link" id="link3" href="#">Oprogramowanie 2</a>
+            </li>
+            <li class="nav-item mr-lg-5">
+              <a class="nav-link" id="link4" href="#">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="jumpers">
+        <div class="container">
+         <h1 id="onas">O nas</h1>
+          <p class="my-5">Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.
+          </p>
+          <div class="video-container col-lg-6 float-left">
+            <iframe 
+              src="https://www.youtube.com/embed/oYC8KkNIkZk" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+          </iframe>
+          </div>
+          <article class="col-sm-12 col-md-12 col-lg-6 float-left">
+            <p id="oprogramowanie1">
+              <br></br>
+              <h1> Oprogramowanie 1</h1>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="jumpers">
+        <div class="container">
+          <div class="video-container clearfloat my-5 col-lg-6 float-left">
+            <iframe  
+            src="https://www.youtube.com/embed/KOX67QP75ZY" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+          </div>
+          <article class="col-sm-12 col-md-12 col-lg-6 float-left">
+            <p id="oprogramowanie2">
+              <br></br>
+              <h1> Oprogramowanie 2</h1>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <footer class="container">
+        <section class="mb-4 clearfloat">
+          <h2 class="h1-responsive font-weight-bold text-center mb-3" id="kontakt">Kontakt</h2>
+          <p class="text-center w-responsive mx-auto mb-5">Zapraszamy do kontaktu w celu ustalenia szczegółów</p>
+            <div class="mb-5">
+              <div class="col-lg-4 col-md-4 text-center float-left">
+                <i class="demo-icon icon-phone"></i>
+                <br></br>
+                + 48 222 420 530
+              </div>
+              <div class="col-lg-4 col-md-4 text-center float-left mt-4">
+                <img
+                src="img/logo/logo3.png"
+                width="200"
+                height="60"
+                class="d-inline-block mr-4 align-bottom text-sm-center"
+                alt="">
+              </div>
+              <div class="col-lg-4 col-md-4 text-center float-left">
+                <i class="demo-icon icon-mail"></i>
+                <br></br>
+                smugit@gmail.com
+              </div>
+              
+            </div>
+        </section>
+    </footer>
+    </main>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
